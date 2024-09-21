@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coba</title>
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Birthday Card for Friend</h1>
-</body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="display-4 text-center">Happy Birthday, Hacktiv8!</h1>
+                <p class="lead text-center ">Semoga dapat menjadi pelatihan coding terbesar se-Indonesia, dapat melahirkan banyak programmer berkualitas di indonesia, semoga lancar serta sukses selalu! </p>
+                <img src="birthday-cake.avif" alt="Birthday Cake" class="img-fluid">
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                <h2 class="text-center">Leave a Message!</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </html>
